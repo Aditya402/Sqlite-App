@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) wants to access your camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) wants to access your contacts</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) wants to access your gallery</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -62,11 +68,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) wants to access your camera</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) wants to access your gallery</string>
-	<key>NSContactsUsageDescription</key>
-	<string>$(PRODUCT_NAME) wants to access your contacts</string>
 </dict>
 </plist>

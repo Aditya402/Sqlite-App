@@ -12,6 +12,7 @@
 		897945E1257B84A6005E91FF /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897945E0257B84A6005E91FF /* ContactViewController.swift */; };
 		897945E7257B84BD005E91FF /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897945E6257B84BD005E91FF /* ContactsTableViewCell.swift */; };
 		897945EF257B8CCB005E91FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897945EE257B8CCB005E91FF /* LoginViewController.swift */; };
+		897EC03E257F8DA900E2C462 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 897EC03D257F8DA900E2C462 /* codemagic.yaml */; };
 		89A8FE96257A3E7500B982B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8FE95257A3E7500B982B3 /* AppDelegate.swift */; };
 		89A8FE98257A3E7500B982B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8FE97257A3E7500B982B3 /* SceneDelegate.swift */; };
 		89A8FE9A257A3E7500B982B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8FE99257A3E7500B982B3 /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		897945E0257B84A6005E91FF /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		897945E6257B84BD005E91FF /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		897945EE257B8CCB005E91FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		897EC03D257F8DA900E2C462 /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		89A8FE92257A3E7500B982B3 /* Sqlite App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sqlite App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A8FE95257A3E7500B982B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A8FE97257A3E7500B982B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				89A8FEB9257A3E7800B982B3 /* Sqlite AppUITests */,
 				89A8FE93257A3E7500B982B3 /* Products */,
 				A3FB477E093DC6D4FE76321C /* Pods */,
+				897EC03D257F8DA900E2C462 /* codemagic.yaml */,
 				DCF2CD581E0901E038B2F26B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				89A8FEA5257A3E7800B982B3 /* LaunchScreen.storyboard in Resources */,
 				89A8FEA2257A3E7800B982B3 /* Assets.xcassets in Resources */,
 				89A8FE9D257A3E7500B982B3 /* Main.storyboard in Resources */,
+				897EC03E257F8DA900E2C462 /* codemagic.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,14 +701,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9NNS94AAMA;
 				INFOPLIST_FILE = "Sqlite App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mouri.Sqlite-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.myshadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dairy App - Development profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -716,14 +723,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9NNS94AAMA;
 				INFOPLIST_FILE = "Sqlite App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mouri.Sqlite-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.myshadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dairy App - Development profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
