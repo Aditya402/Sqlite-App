@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "{{ Sqlite App }}"
-                XCODE_SCHEME: "{{ Sqlite App }}"
+                XCODE_WORKSPACE: "Sqlite App"
+                XCODE_SCHEME: "Sqlite App"
             xcode: latest
             cocoapods: default
         scripts:
