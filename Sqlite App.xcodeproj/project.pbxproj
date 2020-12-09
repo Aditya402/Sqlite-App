@@ -84,7 +84,7 @@
 		89A8FEE6257A47EF00B982B3 /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
 		89A8FEE7257A47EF00B982B3 /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
 		89A8FEEE257A4AB800B982B3 /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
-		89CF47B02580BD340097B712 /* Sqlite App.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sqlite App.xcscheme"; path = "Sqlite App.xcodeproj/xcshareddata/xcschemes/Sqlite App.xcscheme"; sourceTree = SOURCE_ROOT; };
+		89CF47B02580BD340097B712 /* Sqlite App.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sqlite App.xcscheme"; sourceTree = SOURCE_ROOT; };
 		9BD4CA0D077F252780EABBF7 /* Pods-Sqlite App-Sqlite AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sqlite App-Sqlite AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sqlite App-Sqlite AppUITests/Pods-Sqlite App-Sqlite AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B12F30E55422F5D9EB09DA38 /* Pods_Sqlite_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sqlite_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A79C5DA1544E3472230FD5 /* Pods_Sqlite_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sqlite_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +153,7 @@
 				89A8FEB9257A3E7800B982B3 /* Sqlite AppUITests */,
 				89A8FE93257A3E7500B982B3 /* Products */,
 				A3FB477E093DC6D4FE76321C /* Pods */,
+				89CF47B02580BD340097B712 /* Sqlite App.xcscheme */,
 				897EC03D257F8DA900E2C462 /* codemagic.yaml */,
 				DCF2CD581E0901E038B2F26B /* Frameworks */,
 			);
@@ -183,7 +184,6 @@
 				89A8FE9B257A3E7500B982B3 /* Main.storyboard */,
 				89A8FEA1257A3E7800B982B3 /* Assets.xcassets */,
 				89A8FEA3257A3E7800B982B3 /* LaunchScreen.storyboard */,
-				89CF47B02580BD340097B712 /* Sqlite App.xcscheme */,
 				89A8FEA6257A3E7800B982B3 /* Info.plist */,
 				89A8FE9E257A3E7500B982B3 /* Sqlite_App.xcdatamodeld */,
 			);
