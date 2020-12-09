@@ -8,6 +8,9 @@
 import UIKit
 import CoreData
 import IQKeyboardManagerSwift
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
         // Override point for customization after application launch.
+        AppCenter.start(withAppSecret: "7173d6eb-6a78-4c5f-98ff-31499f15c61d", services:[
+          Analytics.self,
+          Crashes.self
+        ])
         return true
     }
 

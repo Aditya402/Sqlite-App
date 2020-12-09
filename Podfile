@@ -6,6 +6,7 @@ target 'Sqlite App' do
   use_frameworks!
 	pod 'IQKeyboardManagerSwift'
 	pod 'CryptoSwift'
+  pod 'AppCenter'
   # Pods for Sqlite App
 
   target 'Sqlite AppTests' do

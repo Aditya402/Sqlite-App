@@ -7,6 +7,8 @@
 
 import UIKit
 import CryptoSwift
+import AppCenter
+import AppCenterCrashes
 
 class ViewController: BaseViewController {
     
@@ -28,6 +30,9 @@ class ViewController: BaseViewController {
     var encryptedPwd = String()
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppCenter.start(withAppSecret: "7173d6eb-6a78-4c5f-98ff-31499f15c61d", services:[
+          Crashes.self
+        ])
         // Do any additional setup after loading the view.
     }
     
